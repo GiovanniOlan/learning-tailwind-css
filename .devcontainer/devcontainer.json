@@ -4,10 +4,7 @@
   "name": "Existing Docker Compose (Extend)",
   // Update the 'dockerComposeFile' list if you have more compose files or use different names.
   // The .devcontainer/docker-compose.yml file contains any overrides you need/want to make.
-  "dockerComposeFile": [
-    "../docker-compose-local.yml",
-    "docker-compose.yml"
-  ],
+  "dockerComposeFile": ["../docker-compose-local.yml", "docker-compose.yml"],
   // The 'service' property is the name of the service for the container that VS Code should
   // use. Update this value and .devcontainer/docker-compose.yml to the real service name.
   "service": "web",
@@ -23,12 +20,22 @@
         }
       },
       "extensions": [
-        "dsznajder.es7-react-js-snippets",
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode",
-        "usernamehw.errorlens",
         "bradlc.vscode-tailwindcss",
-        "burkeholland.simple-react-snippets"
+        "Angular.ng-template",
+        "cyrilletuzi.angular-schematics",
+        "natewallace.angular2-inline",
+        "formulahendry.auto-close-tag",
+        "steoates.autoimport",
+        "formulahendry.auto-rename-tag",
+        "usernamehw.errorlens",
+        "quicktype.quicktype",
+        "pmneo.tsimporter",
+        "EditorConfig.EditorConfig",
+        "aaron-bond.better-comments",
+        "bradlc.vscode-tailwindcss",
+        "yoavbls.pretty-ts-errors",
+        "johnpapa.Angular2",
+        "hossaini.bootstrap-intellisense"
       ]
     }
   }
