@@ -7,4 +7,6 @@ COPY . .
 
 RUN apt update
 
+RUN npm install -g @angular/cli
+
 RUN bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
