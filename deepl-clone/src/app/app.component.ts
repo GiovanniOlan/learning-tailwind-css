@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   template: `
-    <h1>hola mundo</h1>
+    <h1>HOla mundo</h1>
+    <router-outlet></router-outlet>
   `,
+  standalone: false,
+  styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'deepl-clone';
